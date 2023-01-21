@@ -1,0 +1,29 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 299
+  Width = 455
+  object conCDDatabase: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security ' +
+      'Info=False;User ID="";Initial Catalog=Packt_online_learn;Data So' +
+      'urce="";Initial File Name="";Server SPN="";Authentication="";Acc' +
+      'ess Token=""'
+    LoginPrompt = False
+    Provider = 'MSOLEDBSQL.1'
+    Left = 88
+    Top = 80
+  end
+  object tblCD: TADOTable
+    Connection = conCDDatabase
+    CursorType = ctStatic
+    TableName = 'Products'
+    Left = 192
+    Top = 80
+  end
+  object DscCD: TDataSource
+    DataSet = tblCD
+    Left = 280
+    Top = 80
+  end
+end

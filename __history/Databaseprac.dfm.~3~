@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 374
+  ClientWidth = 657
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 0
+    Width = 649
+    Height = 169
+    DataSource = DataModule2.DscCD
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 200
+    Top = 192
+    Width = 240
+    Height = 25
+    DataSource = DataModule2.DscCD
+    TabOrder = 1
+  end
+  object DBEdit1: TDBEdit
+    Left = 224
+    Top = 264
+    Width = 193
+    Height = 25
+    DataField = 'ProductName'
+    DataSource = DataModule2.DscCD
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 264
+    Top = 312
+    Width = 129
+    Height = 41
+    Caption = 'Sort'
+    TabOrder = 3
+  end
+end

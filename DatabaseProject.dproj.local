@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.846,C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Databaseprac.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.065,=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.846,C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Databaseprac.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.608,C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\dmCD_U.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.776,C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\DatabaseProject.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.608,C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\dmCD_U.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.125,=C:\Users\Acer\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
